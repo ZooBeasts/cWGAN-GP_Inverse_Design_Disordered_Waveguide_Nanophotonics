@@ -1,4 +1,4 @@
-# DCGAN_PH_photonics
+# DCGAN_PH_nanophotonics
 This code is for PhD project of inverse design of nanophotonics structure. Open Access Available once Published.
 
 Platform: 
