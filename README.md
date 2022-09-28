@@ -13,7 +13,7 @@ Pytorch Version:
 
 Conda Version: 4.14.0
 
-This DCGAN code is altered from DCGAN tutorial from Pytorch 
+This DCGAN code was altered from DCGAN tutorial from Pytorch 
 https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
 
 And many thanks to 'Global Inverse Design across Multiple Photonic Structure Classes Using Generative Deep Learning', Christopher Yeung et al.
