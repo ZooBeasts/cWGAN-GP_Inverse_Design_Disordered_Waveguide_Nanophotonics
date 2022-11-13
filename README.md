@@ -1,4 +1,4 @@
-# DCGAN_ID_nanophotonics
+# WGAN-GP_WG_nanophotonics
 This code is for PhD project of inverse design of nanophotonics structure. Open Access Available once Published.
 
 Platform: 
@@ -13,8 +13,6 @@ Pytorch Version:
 
 Conda Version: 4.14.0
 
-This DCGAN code was altered from DCGAN tutorial from Pytorch 
-https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
 
-And many thanks to 'Global Inverse Design across Multiple Photonic Structure Classes Using Generative Deep Learning', Christopher Yeung et al.
-  https://doi.org/10.1002/adom.202100548 for giving me new coding ideas. 
+
+
