@@ -35,6 +35,7 @@ for p in dataset:
     img_out = predict(gen,data)
     img = (img_out + 1) / 2
     img = np.round(255 * img)
+    img = cv2.normalize(img, None, alpha=0, beta=255, norm_type=cv2.NORM_MINMAX)
 
     cv2.imwrite(results_folder + '\\' + str(i) + '-test.png', img)
     i += 1
