@@ -12,7 +12,7 @@ GPU: ASUS ROG strix 3090oc
 
 RAM: Crucial 32GB 4200Mhz oc
 
-Pytorch Version: 3.9
+Pytorch Version: 1.11
 
 Conda Version: 4.14.0
 
