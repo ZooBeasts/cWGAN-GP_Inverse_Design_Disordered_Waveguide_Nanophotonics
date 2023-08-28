@@ -39,6 +39,7 @@ Conditional Deep Convolutional GAN  & Wasserstein GAN with gradient penalty are 
 
 
 
+![Unseen_spectra_new_gemo](https://github.com/ZooBeasts/WGAN-GP-Inverse-Design-Waveguide-nanophotonics/assets/75404784/9d707031-0185-4f17-bdd7-0fe1147f63c6)
 
 
 
