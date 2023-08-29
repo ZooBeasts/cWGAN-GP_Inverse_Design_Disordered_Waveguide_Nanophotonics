@@ -1,6 +1,6 @@
 # WGAN-GP_WG_nanophotonics
 
-NOTICE: All files havent been uploaded, Access available when published. 
+NOTICE: All files havent been uploaded, Access is available UPON REASONABLE REQUEST. 
 
 This code is for PhD project of inverse design of nanophotonics structure. Open Access Available once Published.
 
