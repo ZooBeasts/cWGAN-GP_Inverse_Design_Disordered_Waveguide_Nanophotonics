@@ -36,13 +36,13 @@ However, these methods are all very time-consuming.
 Therefore, Data-driven Machine learning is introduced. A Wasserstein generative adversarial network (WGAN-gp) is used for inverse design random waveguide, and CNN is used for forward prediction.
 ## GAN:
 ### Input: Reference Linear transmission spectra data
-### Output: Generated new geometry. 
+### Output: Generated new geometries. 
 ### Aim to solve three different inverse design problems:
 ![Three statement](https://github.com/ZooBeasts/WGAN-GP-Inverse-Design-Waveguide-nanophotonics/assets/75404784/0e4d410f-04b6-4ef7-b725-09e6cd0041f6)
 
 ## Forward Prediction
 ### Input: Geometries ( from GAN or FDTD )
-### Output: Transmission Spectra
+### Output: Transmission Spectra (reference and nonlinear)
 
 The model prediction is measured with MSE, and the acceptable error is within 20%. Due to CNN kernel scanning ability for random, sparse type doesn't perform well.
 
