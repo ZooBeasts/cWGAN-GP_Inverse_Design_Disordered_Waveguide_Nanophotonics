@@ -2,10 +2,14 @@
 
 ## Finalizing, and COMING SOON (Updated readme.*)
 
+#### Ziheng Guo, Zhongliang Guo, Oggie Arandelovic, Andrea di Falco
+#### University of St Andrews, school of physics and astronomy
+#### University of St Andrews, school of computer science
+
 NOTICE: All files haven't been uploaded, Access is available UPON REASONABLE REQUEST. 
 
 
-This code is for PhD project on the inverse design of nanophotonics structure (nanopattern in waveguide).
+This code is for Ph.D project on the inverse design of nanophotonics structure (nanopattern in waveguide).
 
 Platform: 
 
@@ -38,18 +42,56 @@ Therefore, Data-driven Machine learning is introduced. A Wasserstein generative 
 ### Input: Geometries ( from GAN or FDTD )
 ### Output: Transmission Spectra
 
-The model prediction is measured with MSE, and the acceptable error is within 20%. Due to CNN kernel scanning ability for random, sparse types doesn't perform well.
+The model prediction is measured with MSE, and the acceptable error is within 20%. Due to CNN kernel scanning ability for random, sparse type doesn't perform well.
 
 ## Our work considered more randomness in order to extend the overall degree of freedom of waveguide design space. Therefore, it is possible to improve model generalization to avoid mode collapse during the training, as our physical data is sparse type. 200 etched holes in total 4096 design space.
 
 //////////////////////////////////////////////////////////////////////////////////
 
-How to use: 
+# How to use: 
 
-This code was written and run in Windows 10, therefore, number_workers = 0 
+This code was written and run in Windows 10. Therefore, number_workers = 0 
 If you want to run it in Linux, please remember to change the number_workers to your desired number. 
 
-python main.py
+Steps: 
+
+1. if your data is split in *. txt, you can use 
+#### python convert_array2fig.py
+Notice: Remember to change color, size, row and col size to fit your data.
+
+2. Check Dataloder.py
+#### python Dataloder.py
+Notice: Check your data path, image path, data index to avoid error
+
+3. Check Model.py
+#### python Model.py
+Notice: Model.py contains some hyperparameters ( which are also can be controlled in main.py)
+
+4. Check main.py and run
+#### python main.py
+Notice: main.py contains hyperparameters and need to be changed to suit your data. Dont forgot the save location. 
+
+5. Check Unseenprediction and seenprediction.py
+#### python Unseenprediction.py
+#### python seenprediction.py
+Notice: path location and Z_dim size to avoid errors.
+
+6. Load generated geometry, go through Norm_image.py to remove noise
+#### python Norm_image.py
+Notice: check >, <, = value to estimate noise from images
+
+7. Do regression in Regression folder
+#### python Nonlinear_CNN.py
+Notice: remember to change hyperparameters to fit your data, repeat 5 times for different power input
+
+8. Prediction using Nonlinear_pred1e0.py, etc
+#### python Nonlinear_pred1e0.py 
+Notice: Where to predict the output, etc
+
+Now you have the results. and Have Fun with it. 
+
+
+
 
 
 /////////////////////////////////////////////////////////////////////////////////
