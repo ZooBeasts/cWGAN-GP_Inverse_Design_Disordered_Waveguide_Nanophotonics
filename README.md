@@ -71,9 +71,10 @@ Notice: Model.py contains some hyperparameters ( which are also can be controlle
 #### python main.py
 Notice: main.py contains hyperparameters and need to be changed to suit your data. Dont forgot the save location. 
 
-5. Check Unseenprediction and seenprediction.py
+5. Check Unseenprediction and seenprediction.py, or Generate_new_image.py
 #### python Unseenprediction.py
 #### python seenprediction.py
+#### python Generate_new_image.py
 Notice: path location and Z_dim size to avoid errors.
 
 6. Load generated geometry, go through Norm_image.py to remove noise
