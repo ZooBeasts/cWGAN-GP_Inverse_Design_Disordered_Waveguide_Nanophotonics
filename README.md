@@ -40,7 +40,7 @@ Therefore, Data-driven Machine learning is introduced. A Wasserstein generative 
 ### Aim to solve three different inverse design problems:
 ![Three statement](https://github.com/ZooBeasts/WGAN-GP-Inverse-Design-Waveguide-nanophotonics/assets/75404784/0e4d410f-04b6-4ef7-b725-09e6cd0041f6)
 
-## Forward Prediction
+## Forward Prediction:
 ### Input: Geometries ( from GAN or FDTD )
 ### Output: Transmission Spectra (reference and nonlinear)
 
