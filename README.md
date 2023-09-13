@@ -21,7 +21,7 @@ GPU: ASUS ROG strix 3090oc
 
 RAM: Crucial 32GB 4200Mhz oc
 
-Pytorch Version: 1.11
+Pytorch Version: 2.0.1 + cuda 11.7
 
 Conda Version: 4.14.0
 
@@ -31,7 +31,7 @@ The waveguide was stimulated via the FDTD method using custom Fortran code. Ref:
 https://opg.optica.org/oe/fulltext.cfm?uri=oe-12-5-823&id=79198
 
 Traditional inverse design waveguides use all kinds of optimization techniques, such as PSO, GA. 
-However, these methods are all very time conmusing.  
+However, these methods are all very time-consuming.  
 
 Therefore, Data-driven Machine learning is introduced. A Wasserstein generative adversarial network (WGAN-gp) is used for inverse design random waveguide, and CNN is used for forward prediction.
 ## GAN:
