@@ -23,7 +23,7 @@ RAM: Crucial 32GB 4200Mhz oc
 
 Pytorch Version: 2.0.1 + cuda 11.7
 
-Conda Version: 4.14.0
+Conda Version: v23.7.2
 
 
 In this project, we demonstrated the random waveguide design in image size 64 x 64 x 1 channel, and physical size 5.6 x 5.6 um. 
