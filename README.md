@@ -1,8 +1,11 @@
-# WGAN-GP_WG_nanophotonics
+# Generative model for the inverse and forward design of random waveguide in the linear and nonlinear regime
 
-NOTICE: All files havent been uploaded, Access is available UPON REASONABLE REQUEST. 
+## Finalizing, and COMING SOON (Updated readme.*)
 
-This code is for PhD project of inverse design of nanophotonics structure. Open Access Available once Published.
+NOTICE: All files haven't been uploaded, Access is available UPON REASONABLE REQUEST. 
+
+
+This code is for PhD project on the inverse design of nanophotonics structure (nanopattern in waveguide).
 
 Platform: 
 
@@ -17,56 +20,39 @@ Pytorch Version: 1.11
 Conda Version: 4.14.0
 
 
-In this project, we demoasted the random waveguide design in image size 64 x 64, physical size 5 x 5 um. 
-The waveguide was stimulated via the FDTD method using custom Fortran code. 
-Traditional inverse-design waveguide are using all kind of optimization techniques, such as PSO, GA.
-However, these methods are all time-comsuption heavy. 
+In this project, we demonstrated the random waveguide design in image size 64 x 64 x 1 channel, and physical size 5.6 x 5.6 um. 
+The waveguide was stimulated via the FDTD method using custom Fortran code. Ref: Optical parametric oscillations in isotropic photonic crystals, Claudio Conti, Andrea Di Falco, and Gaetano Assanto. 
+https://opg.optica.org/oe/fulltext.cfm?uri=oe-12-5-823&id=79198
 
-Therefore, Deep Learning is introduced. A generative adversarial network (GAN) is used for this specific project.
+Traditional inverse design waveguides use all kinds of optimization techniques, such as PSO, GA. 
+However, these methods are all very time conmusing.  
 
-The problem with the inverse design of the random geometries waveguide is the whole design space: 
-Large Design space but with a random number of holes
+Therefore, Data-driven Machine learning is introduced. A Wasserstein generative adversarial network (WGAN-gp) is used for inverse design random waveguide, and CNN is used for forward prediction.
+# GAN:
+# Input: Reference Linear transmission spectra data
+# Output: Generated new geometry. 
+# Aim to solve three different inverse design problems:
+![Three statement](https://github.com/ZooBeasts/WGAN-GP-Inverse-Design-Waveguide-nanophotonics/assets/75404784/0e4d410f-04b6-4ef7-b725-09e6cd0041f6)
 
-There are no patten or guidance for Neural networks to learn. 
+# Forward PredictionL
+# Input: Geometries ( from GAN or FDTD )
+# Output: Transmission Spectra
 
-Thus, regular DNN or CNN are hard to train for this case. 
+The model prediction is measured with MSE, and the acceptable error is within 20%. Due to CNN kernel scanning ability for random, sparse types doesn't perform well.
 
+# Our work considered more randomness in order to extend the overall degree of freedom of waveguide design space. Therefore, it is possible to improve model generalization to avoid mode collapse during the training, as our physical data is sparse type. 200 etched holes in total 4096 design space.
 
-We chose GAN for our base network to learn the Transmission Spectra and Geometries relations. 
+//////////////////////////////////////////////////////////////////////////////////
 
+How to use: 
 
-Conditional Deep Convolutional GAN  & Wasserstein GAN with gradient penalty are implanted. 
+This code was written and run in Windows 10, therefore, number_workers = 0 
+If you want to run it in Linux, please remember to change the number_workers to your desired number. 
 
-
-
-![Unseen_spectra_new_gemo](https://github.com/ZooBeasts/WGAN-GP-Inverse-Design-Waveguide-nanophotonics/assets/75404784/9d707031-0185-4f17-bdd7-0fe1147f63c6)
-
-
-
-
-
-
-
-
-//////////////////////////////////////////////////////////////
-
-How to use:
+python main.py
 
 
-Dataloader.py contains the one2one correlation between transmission spectra and real geometrical images.
-
-
-gradientpenalty.py contains the gradient penalty calculation and definition. 
-
-
-main.py contains training step and run the code. 
-
-
-Model.py contains the main model for WGAN-gp
-
-
-Generator.py contains loading saved training info and generate new images.
-
+/////////////////////////////////////////////////////////////////////////////////
 
 
 
