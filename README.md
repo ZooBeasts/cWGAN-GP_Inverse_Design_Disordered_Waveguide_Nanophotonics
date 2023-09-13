@@ -2,9 +2,9 @@
 
 ## Finalizing, and COMING SOON (Updated readme.*)
 
-#### Ziheng Guo, Zhongliang Guo, Oggie Arandelovic, Andrea di Falco
-#### University of St Andrews, school of physics and astronomy
-#### University of St Andrews, school of computer science
+### Ziheng Guo, Zhongliang Guo, Oggie Arandelovic, Andrea di Falco
+### University of St Andrews, school of physics and astronomy
+### University of St Andrews, school of computer science
 
 NOTICE: All files haven't been uploaded, Access is available UPON REASONABLE REQUEST. 
 
