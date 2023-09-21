@@ -8,7 +8,7 @@
 
 ///////////////////////////////////////////////////////////////
 
-NOTICE: All files haven't been uploaded, Access is available UPON REASONABLE REQUEST. 
+# NOTICE: All files haven't been uploaded, Access is available UPON REASONABLE REQUEST. 
 
 
 This code is for Ph.D project on the inverse design of nanophotonics structure (nanopattern in waveguide).
