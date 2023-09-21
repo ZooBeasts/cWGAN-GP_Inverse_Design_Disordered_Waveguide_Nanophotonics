@@ -1,4 +1,4 @@
-# Generative model for inverse design and forward prediction of disorder waveguide in the linear and nonlinear regime
+# Generative model for inverse design and forward prediction of disorder waveguide in the linear and nonlinear regimes
 
 ## Finalizing, and COMING SOON (Updated readme.*)
 
