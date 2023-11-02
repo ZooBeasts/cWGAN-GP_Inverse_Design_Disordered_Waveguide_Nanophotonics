@@ -36,7 +36,8 @@ Therefore, Data-driven Machine learning is introduced. A Wasserstein generative 
 ### Input: Reference Linear transmission spectra data
 ### Output: Generated new geometries. 
 ### Aim to solve three different inverse design problems:
-![image](https://github.com/ZooBeasts/cWGAN-GP_Inverse_Design_Disordered_Waveguide_Nanophotonics/assets/75404784/c45dd50c-00ed-44cb-a329-a25a8a351e74)
+![image](https://github.com/ZooBeasts/cWGAN-GP_Inverse_Design_Disordered_Waveguide_Nanophotonics/assets/75404784/5f95a736-b80c-4c10-a0d3-cc087bb3db19)
+
 
 
 ## Forward Prediction:
