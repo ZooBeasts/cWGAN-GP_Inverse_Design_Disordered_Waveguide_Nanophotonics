@@ -1,4 +1,4 @@
-# Generative model for inverse design and forward predictions of disordered waveguides in the linear and nonlinear regimes
+# Generative model for inverse design and forward predictions of disordered waveguides in the linear and nonlinear regimes (windows based Py)
 
 ## Finalizing, and COMING SOON (Updated readme.*)
 
