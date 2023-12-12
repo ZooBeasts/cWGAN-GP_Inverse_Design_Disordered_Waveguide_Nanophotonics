@@ -8,7 +8,7 @@
 
 ///////////////////////////////////////////////////////////////
 
-# NOTICE: All files haven't been uploaded, Access is available UPON REASONABLE REQUEST. All .py files will available once published, please stay tunned. 
+# NOTICE: All files haven't been uploaded, Access is available UPON REASONABLE REQUEST. All .py files will be available once published, please stay tuned. 
 
 
 Platform: 
