@@ -6,6 +6,8 @@
 ###  <sup>1</sup> School of Physics and Astronomy, University of St. Andrews, Fife, KY16 9SS, United Kingdom
 ###  <sup>2</sup> School of Computer Science, University of St. Andrews, Fife, KY16 9SS, United Kingdom
 
+### 22/02/2024 Work will be presented in Machine Learning in Photonics, SPIE PHOTONICS EUROPE 8 April 2024, Strasbourg, France. 
+
 ///////////////////////////////////////////////////////////////
 
 # NOTICE: All files haven't been uploaded, Access is available UPON REASONABLE REQUEST. All .py files will be available once published, please stay tuned. 
