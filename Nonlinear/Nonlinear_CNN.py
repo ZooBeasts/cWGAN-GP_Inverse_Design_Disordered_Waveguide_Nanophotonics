@@ -43,7 +43,7 @@ transform = transforms.Compose([
     transforms.Normalize(mean=[0.5], std=[0.5])  # Normalize grayscale image to range [-1, 1]
 ])
 
-dataset = MyDataset('1e3.csv', 'C:/Users/Administrator/Desktop/pythonProject/pr1/Training_Data/image/new/',
+dataset = MyDataset('', '',
                     transform=transform)
 
 dataloader = DataLoader(dataset, batch_size=85, shuffle=True)
