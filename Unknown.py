@@ -6,13 +6,13 @@ import numpy as np
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 # load the saved trained Generator info
-#model_path = r'C:/Users/Administrator/Desktop/pythonProject/pr1/logs/WGAN77/netG230.pt'
-model_path = r'E:/50Kdatasave5/netG400.pt'
+
+model_path = r''
 
 # Load the dataset
 dataset = MMIUnseenDataset(
                      z_dim=250,
-                     points_path='C:/Users/Administrator/Desktop/pythonProject/pr1/unseen1.csv',
+                     points_path='',
                      )
 
 # Output the results path & load the data into Generator
