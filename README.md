@@ -60,12 +60,10 @@ If you want to run it in Linux, please remember to change the number_workers to 
 
 Steps: 
 
-1. if your data is split in *. txt, you can use 
-#### python convert_array2fig.py
+1. if your data is split in *. txt, you can use convertarray2image.py in Utilities folder
 Notice: Remember to change color, size, row and col size to fit your data.
 
 2. Check Dataloder.py
-#### python Dataloder.py
 Notice: Check your data path, image path, data index to avoid error
 
 3. Check Model.py in Model folder
