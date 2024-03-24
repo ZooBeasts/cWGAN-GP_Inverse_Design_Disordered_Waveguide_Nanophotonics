@@ -1,4 +1,4 @@
-# Generative model for inverse design and forward predictions of disordered waveguides in the linear and nonlinear regimes
+# Generative model for multiple-purpose inverse design and forward prediction of disordered waveguides in linear and nonlinear regimes 
 
 ## COMING SOON (Updated readme.*), dont Panic if you see old code disappeared, they are in archive code folder. 
 
@@ -7,6 +7,7 @@
 ###  <sup>2</sup> School of Computer Science, University of St. Andrews, Fife, KY16 9SS, United Kingdom
 
 ### 22/02/2024 Work will be presented in Machine Learning in Photonics, SPIE PHOTONICS EUROPE 8 April 2024, Strasbourg, France. 
+https://spie.org/photonics-europe/presentation/Generative-model-for-multiple-purpose-inverse-design-and-forward-prediction/13017-2
 
 Platform: 
 
