@@ -60,8 +60,6 @@ The model prediction is measured with MSE, and the acceptable error is within 10
 
 
 
-//////////////////////////////////////////////////////////////////////////////////
-
 # How to use: 
 
 This code was written and run in Windows 10. Therefore, number_workers = 0 
