@@ -39,10 +39,9 @@ Our work considered more randomness in order to extend the overall degree of fre
 ### Output: Generated new geometries. 
 ### Aim to solve three different inverse design problems:
 Examples to support our findings
-Old data was in paper
+
 ![Screenshot from 2024-03-24 10-33-40](https://github.com/ZooBeasts/cWGAN-GP_Inverse_Design_Disordered_Waveguide_Nanophotonics/assets/75404784/942f31e8-0c98-445b-b248-e7251a6daf95)
 
-New data now in paper
 ![inversedeignnew](https://github.com/ZooBeasts/cWGAN-GP_Inverse_Design_Disordered_Waveguide_Nanophotonics/assets/75404784/bd0fc76d-1ac3-4a62-a0bc-7a01a417bd35)
 
 
