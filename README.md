@@ -26,9 +26,9 @@ The waveguide was stimulated via the FDTD method using custom Fortran code. Ref:
 https://opg.optica.org/oe/fulltext.cfm?uri=oe-12-5-823&id=79198
 
 Traditional inverse design waveguides use all kinds of optimization techniques, such as PSO, GA. 
-However, these methods are all very time-consuming.  
+However, these methods are all very time-consuming. Therefore, Data-driven Machine learning is introduced. A Wasserstein generative adversarial network (WGAN-gp) is used for inverse design random waveguide, and CNN is used for forward prediction.
 
-Therefore, Data-driven Machine learning is introduced. A Wasserstein generative adversarial network (WGAN-gp) is used for inverse design random waveguide, and CNN is used for forward prediction.
+
 ## GAN:
 ### Input: Reference Linear transmission spectra data
 ### Output: Generated new geometries. 
@@ -50,7 +50,7 @@ Therefore, Data-driven Machine learning is introduced. A Wasserstein generative 
 
 The model prediction is measured with MSE, and the acceptable error is within 10%. Due to CNN kernel scanning ability for random, sparse type doesn't perform well.
 
-## Our work considered more randomness in order to extend the overall degree of freedom of waveguide design space. Therefore, it is possible to improve model generalization to avoid mode collapse during the training, as our physical data is sparse type. 200 etched holes in total 4096 design space.
+### Our work considered more randomness in order to extend the overall degree of freedom of waveguide design space. Therefore, it is possible to improve model generalization to avoid mode collapse during the training, as our physical data is sparse type. 200 etched holes in total 4096 design space.
 
 
 //////////////////////////////////////////////////////////////////////////////////
