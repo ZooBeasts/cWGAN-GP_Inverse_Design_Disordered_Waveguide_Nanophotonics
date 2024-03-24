@@ -6,14 +6,14 @@ import numpy as np
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 # load the saved trained Generator info
-#model_path = r'C:/Users/Administrator/Desktop/pythonProject/pr1/logs/WGAN77/netG230.pt'
-model_path = r'E:/newline1/netG10.pt'
+
+model_path = r''
 
 # Load the dataset
 dataset = MMIDataset(img_size=64,
                      z_dim=250,
-                     points_path=r'C:/Users/Administrator/Desktop/pythonProject/pr1/2000test.csv',
-                     img_folder=r'C:/Users/Administrator/Desktop/pythonProject/pr1/Training_Data/image/new',
+                     points_path=r'',
+                     img_folder=r'',
                      )
 
 # Output the results path & load the data into Generator
