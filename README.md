@@ -78,15 +78,12 @@ Notice: main.py contains hyperparameters and need to be changed to suit your dat
 Notice: path location and Z_dim size to avoid errors.
 
 6. Load generated geometry, go through Norm_image.py to remove noise
-#### python Norm_image.py
 Notice: check >, <, = value to estimate noise from images
 
 7. Do regression in Nonlinear folder
-#### python Nonlinear_CNN.py
 Notice: remember to change hyperparameters to fit your data, repeat 10 times for different power input
 
 8. Prediction using Nonlinear_pred1e0.py, etc
-#### python Nonlinear_pred1e0.py 
 Notice: Where to predict the output, etc
 
 
