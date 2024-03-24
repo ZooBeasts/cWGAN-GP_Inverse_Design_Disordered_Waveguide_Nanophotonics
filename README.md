@@ -7,10 +7,6 @@
 ###  <sup>2</sup> School of Computer Science, University of St. Andrews, Fife, KY16 9SS, United Kingdom
 
 ### 22/02/2024 Work will be presented in Machine Learning in Photonics, SPIE PHOTONICS EUROPE 8 April 2024, Strasbourg, France. 
-![inversedeignnew](https://github.com/ZooBeasts/cWGAN-GP_Inverse_Design_Disordered_Waveguide_Nanophotonics/assets/75404784/03acddf2-3532-4f4d-bee4-8055ecdd47d4)
-
-![forward-p](https://github.com/ZooBeasts/cWGAN-GP_Inverse_Design_Disordered_Waveguide_Nanophotonics/assets/75404784/e1c9b779-acef-43f2-a546-743612ed7edb)
-
 
 Platform: 
 
@@ -37,7 +33,11 @@ Therefore, Data-driven Machine learning is introduced. A Wasserstein generative 
 ### Input: Reference Linear transmission spectra data
 ### Output: Generated new geometries. 
 ### Aim to solve three different inverse design problems:
-![image](https://github.com/ZooBeasts/cWGAN-GP_Inverse_Design_Disordered_Waveguide_Nanophotonics/assets/75404784/726d58bf-23fe-4ed8-a6eb-086730270e86)
+
+![inverse_design_result](https://github.com/ZooBeasts/cWGAN-GP_Inverse_Design_Disordered_Waveguide_Nanophotonics/assets/75404784/d31a795c-c90c-4144-acee-a2d62019dbf8)
+
+
+![inversedeignnew](https://github.com/ZooBeasts/cWGAN-GP_Inverse_Design_Disordered_Waveguide_Nanophotonics/assets/75404784/bd0fc76d-1ac3-4a62-a0bc-7a01a417bd35)
 
 
 
@@ -45,6 +45,9 @@ Therefore, Data-driven Machine learning is introduced. A Wasserstein generative 
 ## Forward Prediction:
 ### Input: Geometries ( from GAN or FDTD )
 ### Output: Transmission Spectra (reference and nonlinear)
+
+![forward-p](https://github.com/ZooBeasts/cWGAN-GP_Inverse_Design_Disordered_Waveguide_Nanophotonics/assets/75404784/af84b8fb-141d-40f2-9a6c-c942d43dccdb)
+
 
 The model prediction is measured with MSE, and the acceptable error is within 10%. Due to CNN kernel scanning ability for random, sparse type doesn't perform well.
 
