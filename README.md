@@ -14,7 +14,7 @@ CPU: AMD R9 5900x 4.6Ghz
 
 GPU: ASUS ROG strix 3090oc 
 
-RAM: Crucial 32GB 4200Mhz oc
+RAM: Crucial 48GB 4200Mhz oc
 
 Pytorch Version: 2.0.1 + cuda 11.7
 
