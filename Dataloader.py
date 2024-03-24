@@ -71,8 +71,8 @@ def get_loader(
         img_size,
         batch_size,
         z_dim,
-        points_path='C:/Users/Administrator/Desktop/pythonProject/pr1/new1e0.csv',
-        img_folder='C:/Users/Administrator/Desktop/pythonProject/pr1/Training_Data/image/new',
+        points_path='',
+        img_folder='',
         shuffle=True,
 ):
     return DataLoader(MMIDataset(img_size, z_dim, points_path, img_folder),
