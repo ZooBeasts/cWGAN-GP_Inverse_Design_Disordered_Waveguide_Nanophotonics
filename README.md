@@ -41,7 +41,9 @@ Our work considered more randomness in order to extend the overall degree of fre
 Examples to support our findings
 
 
+![image](https://github.com/ZooBeasts/cWGAN-GP_Inverse_Design_Disordered_Waveguide_Nanophotonics/assets/75404784/3d03afa0-688e-4e80-9d87-1de590dde429)
 
+![image](https://github.com/ZooBeasts/cWGAN-GP_Inverse_Design_Disordered_Waveguide_Nanophotonics/assets/75404784/c79a1555-5eed-4a83-8bc4-aa59d7278800)
 
 
 
