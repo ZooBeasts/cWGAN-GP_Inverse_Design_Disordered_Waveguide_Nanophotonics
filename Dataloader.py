@@ -42,7 +42,7 @@ class MMIDataset(Dataset):
         item = self.data[index]
         img = cv2.imread(self.img_folder + '\\{}.png'.format(item[0]), cv2.IMREAD_GRAYSCALE)
         img = cv2.resize(img, (self.img_size, self.img_size))[:, :, np.newaxis]
-        img = img / 255.0
+        img = img / 255.0 * 2 -1
         img = img.transpose(2, 0, 1)
         img = torch.from_numpy(img)
         points21 = item[1:dataindex].astype(np.float64).reshape(-1, 1)
