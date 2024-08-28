@@ -1,6 +1,5 @@
 # Generative model for multiple-purpose inverse design and forward prediction of disordered waveguides in linear and nonlinear regimes 
-
-## Partial was published at the conference, but the main paper is still being drafted. if you like our work, please reference us.
+if you like our work, please reference us.
 
 ### Ziheng Guo<sup>1</sup>, Zhongliang Guo<sup>2</sup>, Oggie Arandelovic<sup>2</sup>, Andrea di Falco<sup>1*</sup>
 ###  <sup>1</sup> School of Physics and Astronomy, University of St. Andrews, Fife, KY16 9SS, United Kingdom
