@@ -97,13 +97,13 @@ for epoch in range(num_epochs):
             loss_critic = (
                     -(torch.mean(critic_real) - torch.mean(critic_fake)) + LAMBDA_GP * gp
             )
-            netD.zero_grad()
+            opt_critic.zero_grad()
             loss_critic.backward(retain_graph=True)
             opt_critic.step()
 
         gen_fake = netD(fake, points21).reshape(-1)
         loss_gen = -torch.mean(gen_fake)
-        netG.zero_grad()
+        opt_gen.zero_grad()
         loss_gen.backward()
         opt_gen.step()
 
