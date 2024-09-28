@@ -1,5 +1,5 @@
 
-from __future__ import print_function
+
 import random
 import torch.optim as optim
 import torch.utils.data
@@ -12,14 +12,11 @@ from gradientpenalty import gradient_penalty
 from Model import Critic, Generator, initialize_weights
 
 
-# torch.autograd.set_detect_anomaly(True)
-# Get GPU Information
-
 print("CUDA is available: {}".format(torch.cuda.is_available()))
 print("CUDA Device Count: {}".format(torch.cuda.device_count()))
 print("CUDA Device Name: {}".format(torch.cuda.get_device_name(0)))
 
-save_dir = 'E:/85_data/'
+save_dir = 'E:/'
 
 Batch_size = 64
 nc = 1
