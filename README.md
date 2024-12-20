@@ -1,5 +1,5 @@
 # Generative model for multiple-purpose inverse design and forward prediction of disordered waveguides in linear and nonlinear regimes 
-### if you like our work, please reference us. This generation contains large uncertainty and diversity, if you want to more precise model, please see the Conditions_Mimicking_WGAN_Disordered_Waveguide_inverse_design project.
+### if you like our work, please reference us. This generation contains large uncertainty and diversity for disordered waveguide designs, if you want to more precise model (such as one2precisegeneration), please see the Conditions_Mimicking_WGAN_Disordered_Waveguide_inverse_design project.
 
 ### Ziheng Guo<sup>1</sup>, Zhongliang Guo<sup>2</sup>, Oggie Arandelovic<sup>2</sup>, Andrea di Falco<sup>1*</sup>
 ###  <sup>1</sup> School of Physics and Astronomy, University of St. Andrews, Fife, KY16 9SS, United Kingdom
